@@ -1,0 +1,32 @@
+.quality {
+  background-image: url("../img/quality/01.png");
+  height: 1693px;
+  background-position: -195px 70px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 2037px auto;
+  padding: 373px 0px 100px 202px;
+  &-body {
+    max-width: 523px;
+  }
+  &__title {
+    font-size: 50px;
+    color: #ffffff;
+  }
+  &__text {
+    color: #ffffff;
+    font-size: 33px;
+  }
+  &__img1 {
+    position: absolute;
+    right: 0;
+    width: 895px;
+    height: 1035px;
+    top: 790px;
+  }
+  &__img2 {
+    position: absolute;
+    left: -60px;
+    top: 1110px;
+  }
+}

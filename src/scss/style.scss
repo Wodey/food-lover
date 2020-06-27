@@ -1,0 +1,29 @@
+@import "header";
+@import "fonts";
+@import "reset";
+@import "variables";
+@import "contact-us";
+@import "about-us";
+@import "quality";
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: $font-family;
+}
+
+.bg1 {
+    background-image: url("../img/bg/01.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 852px;
+}
+
+.bg2 {
+    height: 8000px;
+    background-color: #1d1d23;
+}

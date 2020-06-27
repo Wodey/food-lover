@@ -1,0 +1,32 @@
+.about {
+  &-body {
+    display: flex;
+    padding: 120px 0px 77px 120px;
+  }
+  &__column {
+    flex: 0 0 50%;
+    &:last-child {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  &__title {
+    color: #ffffff;
+    font-size: 50px;
+    margin: 0px 0px 49px 0px;
+  }
+  &__text {
+    font-size: 33px;
+    color: #ffffff;
+    max-width: 523px;
+  }
+  &-plate {
+    position: relative;
+    img {
+      position: absolute;
+      right: -345px;
+      top: 0;
+    }
+  }
+}
