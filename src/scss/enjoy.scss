@@ -1,0 +1,23 @@
+.enjoy {
+  background-image: url("/img/enjoy/01.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 960px;
+  .enjoy-body {
+    max-width: 522px;
+  }
+  .enjoy__title {
+    text-align: center;
+    margin-bottom: 31px;
+    font-size: 50px;
+    color: #ffffff;
+  }
+  .enjoy__text {
+    font-size: 33px;
+    color: #ffffff;
+  }
+}
