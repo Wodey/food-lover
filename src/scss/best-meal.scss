@@ -1,0 +1,26 @@
+.meal {
+  background-color: #e58f00;
+  height: 504px;
+  &-body {
+    display: flex;
+  }
+  &__column {
+    flex: 0 0 50%;
+    &:last-child {
+      margin: 138px 0px 0px 0px;
+    }
+  }
+  &__img {
+    margin-top: -66px;
+  }
+  &__title {
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0px 0px 31px 0px;
+  }
+  &__text {
+    color: #ffffff;
+    font-size: 33px;
+    max-width: 523px;
+  }
+}
